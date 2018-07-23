@@ -3,7 +3,6 @@
 function momFruitsCollision(){
     //循环获取每一个食物
     for(var i=0;i<fruit.num;i++){
-
         //判断当前食物状态 true
         if(fruit.alive[i]){
         //获取大鱼与食物距离
